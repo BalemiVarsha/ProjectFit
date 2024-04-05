@@ -1,0 +1,28 @@
+.set{
+    margin-top: 0%;
+    margin-left: 10%;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 0 0 20px lightgray; 
+    background-color: white;
+    /* box-shadow: 10px 10px 5px lightgray; */
+}
+/* .edit{
+    margin-top: 5px;
+   
+} */
+.editt{
+    background-color:  #7216fc;border: #7216fc;
+    color: white;
+    width: 100%;
+    height: 35px;
+}
+.editt:hover{
+    background-color: green;
+    border-radius: 30px;
+}
+.radio{
+    margin-top: 10px;
+}
+.resumebtn{
+    background-color: rgb(194, 190, 190);
+}

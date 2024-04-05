@@ -1,0 +1,22 @@
+/* body{
+    background-color: rgb(241, 235, 235);
+} */
+/* styles.css */
+
+/* General styles for your project */
+
+/* Media Query for Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 768px) {
+    /* CSS rules specific to small devices */
+  }
+  
+  /* Media Query for Medium Devices (e.g., Tablets) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules specific to medium devices */
+  }
+  
+  /* Media Query for Large Devices (e.g., Desktops) */
+  @media screen and (min-width: 1025px) {
+    /* CSS rules specific to large devices */
+  }
+  

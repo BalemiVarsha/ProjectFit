@@ -1,0 +1,203 @@
+.conntainer {
+  margin: 10px;
+  margin-left: 40vh;
+ 
+}
+
+.prooject-container{
+  
+  flex-wrap: wrap;
+}
+.prooject-details {
+  margin-left: 15px;
+}
+.prooject-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10vh;
+  margin-bottom: 8vh;
+  padding: 20px;
+ 
+  width:80%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* .projectt-details {
+  text-align: center;
+} */
+
+.vieew-pdf-button button{
+  position: absolute;
+  background-color: #007bff;
+  height:5vh;
+  width: 20vh;
+  color:white;
+  border-color: #1c8df0;
+  top: 15vh;
+ margin-left: 45vh;
+}
+.vieew-pdf-button button:hover {
+  background-color: #0a7ac0;
+  border-radius: 5px;
+}
+
+.opttions {
+  position: absolute;
+  margin-left: 100vh;
+  bottom: 70px;
+  left: 10px;
+}
+
+.editbtn,
+.dellt,
+.sendreqq {
+  margin-top: 2px;
+}
+.editbt{
+  background-color: #fec045;
+}
+.dellt {
+  background-color: rgb(229, 22, 22);
+}
+
+
+
+
+
+
+.conntainer h2{
+  margin-left: 55vh;;
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.container {
+    margin-top: 20px;
+  
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project-box {
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px;
+    width: 120%;
+    
+    box-sizing: border-box; 
+  }
+  
+  .project-box h3 {
+    margin-top: 0;
+  }
+  
+  .project-box p {
+    margin: 5px 0;
+  }
+  
+  .options button {
+    margin-bottom: 15px;
+    margin-top: 7px;
+  }
+  .view-pdf-button {
+    padding-top: 5px;
+   
+    margin-left: 55vh;
+    position:absolute;
+    
+    color:#5b95f9 ;
+  
+    font-size: 1vh;
+  }
+  
+  .view-pdf-button button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-pdf-button button:hover {
+    background-color: #0056b3;
+  }
+  .project-box {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-details {
+    margin-bottom: 10px;
+  }
+  
+  .view-pdf-button {
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+  }
+  
+  .sendreq{
+    background-color: rgb(136, 194, 49);
+  }
+  .editbt{
+    background-color: #fec045 ;
+  } */

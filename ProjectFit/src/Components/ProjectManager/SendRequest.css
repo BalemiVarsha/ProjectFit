@@ -1,0 +1,64 @@
+.container {
+    margin: 20px;
+   
+  }
+  
+  .project-container{
+    
+    flex-wrap: wrap;
+  }
+  .project-details {
+    margin-left: 1px;
+  }
+  .project-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 20vh;
+    margin-bottom: 8vh;
+    padding: 20px;
+   
+   
+    width:80%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* .projectt-details {
+    text-align: center;
+  } */
+  
+  .view-pdf-button button{
+    position: absolute;
+    background-color: #007bff;
+    height:5vh;
+    width: 20vh;
+    color:white;
+    border-color: #1c8df0;
+    top: 10vh;
+    left: 50vh;
+   
+  }
+  .view-pdf-button button:hover {
+    background-color: #0a7ac0;
+    border-radius: 5px;
+  }
+  
+  .options {
+    position: absolute;
+    margin-left: 100vh;
+    bottom: 70px;
+    left: 10px;
+  }
+  
+  .editbtn,
+  .delt,
+  .sendreqq {
+    margin-top: 2px;
+  }
+  .editbt{
+    background-color: #fec045;
+  }
+  .sendreq {
+    background-color: rgb(136, 194, 49);
+  }
+  

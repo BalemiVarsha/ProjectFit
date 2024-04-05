@@ -1,0 +1,104 @@
+.filtertitle {
+   margin-top: 1%;
+    margin-left: 17%;
+    font-weight:bolder;
+    padding-right: 10vh;
+    position :flex;
+    color:white
+}
+.filterdept {
+    margin-top: 1%;
+     margin-left: 5%;
+     font-weight:bolder;
+     padding-right: 10vh;
+     position :flex;
+     color:white;
+ }
+ .filtertitle option{
+    padding-left: 20px;
+    width: 100%;
+ }
+.filterr{
+    display:flex;
+    height:7vh;
+    background-color:  #7216fc;
+
+   
+}
+.filterr button{
+    margin-top: 8px;
+    height:35px;
+   
+   
+}
+
+
+.project-detailss {
+    margin-top: 2%;
+  
+    margin-left: 25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0 0 20px rgba(186, 181, 181, 0.528);
+}
+
+.project-detailss h5 {
+    padding-top: 9px;
+    font-size: 30px;
+}
+
+.project-detailss p {
+    padding-left: 45px;
+}
+
+.view-pdff-button {
+    position: absolute;
+    margin-left: 100vh;
+    margin-top: 10vh;
+   
+}
+.view-pdff-button button{
+    background-color: #0000FF;
+    color:white
+}
+
+.employee-detailss {
+    margin-top: 2%;
+ position:relative;
+    margin-left: 25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    height:50vh;
+    box-shadow: 0 0 20px rgba(186, 181, 181, 0.528);
+}
+.employee-detailss h5 {
+    padding-top: 9px;
+    font-size: 30px;
+}
+
+.employee-detailss p {
+    padding-left: 45px;
+}
+.employee-detailss input {
+    margin-left: 45%;
+   font-size: 50%;
+}
+.chart-container{
+   top:0px;
+   padding-top: 3vh;
+   position:absolute;
+   margin-left: 40vh;
+   color:rgba(146, 94, 250, 0.91)
+   
+}
+.employee-detailss input{
+margin-left: 80%;
+}
+
+/* 'rgba(153, 102, 255, 0.5)',
+'rgba(54, 162, 235, 0.5)', */
+
+/* 
+'rgba(83, 4, 240, 0.722)', */

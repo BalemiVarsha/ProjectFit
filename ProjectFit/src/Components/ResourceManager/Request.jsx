@@ -39,7 +39,7 @@ const Request = () => {
   useEffect(() => {
     fetchProjectData();
     fetchProjData ();
-  }, []);
+  }, [projectRequest]);
 
   const viewProjectPdf = async (projectId) => {
 
@@ -47,6 +47,21 @@ const Request = () => {
       window.open(`http://localhost:5000/Project-data/${projectId}/pdf`, '_blank');
     } catch (error) {
       console.error('Error viewing project PDF:', error);
+    }
+  };
+  const handleDelete = async (projectId) => {
+    try {
+      const response = await fetch(`http://localhost:5000/send-request/${projectId}`, {
+        method: 'DELETE'
+      });
+      if (!response.ok) {
+        throw new Error('Failed to delete request project');
+      }
+      // Remove the deleted project from the state
+      setProjects(projects.filter(project => project._id !== projectId));
+      console.log('Requested Project deleted successfully');
+    } catch (error) {
+      console.error('Error deleting requestend project:', error);
     }
   };
   const splitDateByT = (date) => {
@@ -75,7 +90,7 @@ const Request = () => {
                   <p><strong>Description:</strong> {projectreq.description}</p>
                 </div>
                 <div className="opttions">
-                  <button className="btn btn-outline-success bb">Delete</button><br></br>
+                  <button className="btn btn-outline-success bb"onClick={() => handleDelete(projectreq._id)}>Delete</button><br></br>
                 </div>
               </div>
             );

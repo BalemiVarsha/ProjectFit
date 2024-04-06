@@ -1,0 +1,132 @@
+.title h3 {
+    margin-top: 2%;
+    margin-left:50%;
+    
+    border: 2px;
+    
+
+  }
+  .add-employee-btn {
+    margin-left:80%; 
+    margin-bottom: 10px;/* Adjust the margin-left value as needed */
+  }
+ 
+  .add-employee-btn:hover{
+    background-color: rgb(0, 115, 255) /* Change color on hover */
+  }
+  .empinfo{
+    margin-top: 5%;
+    margin-left:17%;
+  }
+  button{
+    margin-right: 5px;
+  }
+  .edit{
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+  }
+  .delete{
+    background-color: rgb(173, 19, 19);
+    color:white;
+    border-radius: 5px;
+  }
+  .add{
+    background-color: #7216fc;
+    color: white;
+  }
+  .editt{
+    background-color:  #7216fc;border: #7216fc;
+    color: white;
+    width: 100%;
+    height: 35px;
+}
+.add:hover{
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+}
+/* ------------------------------------- */
+.container{
+  padding-top: 2%;
+  padding-left: 13%;
+  font-size: 15px;
+}
+.container h2{
+  text-align: center;
+}
+.table{
+  margin-top: 4%;
+  margin-left: 5%;
+}
+/* .table button{
+  padding: 1px;;
+} */
+
+.resume{
+  background-color:#fec045 ;
+  background-color: #7216fc ;
+  color:white;
+
+ 
+
+  /* box-shadow: 0 0 10px rgb(181, 173, 173); */
+}
+.editbtu{
+  background-color: rgb(28, 163, 28);
+  background-color: #7216fc;
+  color:white;
+  /* box-shadow: 0 0 20px rgb(181, 173, 173); */
+
+
+}
+.addemp{
+  background-color:  #5620adf1;
+  /* background-color: #f26b6d;
+  background-color: #5e17eb; */
+  border: #5e17eb;
+  margin-left: 5%;
+  color:white;
+  box-shadow: 0 0 20px rgb(181, 173, 173);
+  width: 15%;
+  height: 5vh;
+}
+.delt{
+  background-color: #f05a5d;
+  background-color: #7216fc;
+  color:white;
+  /* border: #e52023; */
+  /* box-shadow: 0 0 20px rgb(181, 173, 173); */
+  /* border-color: #e52023; */
+}
+.search-containerr {
+  border: 2px solid #ccc; /* Border around the entire container */
+  border-radius: 5px; /* Rounded corners */
+  padding: 2px;
+  background-color: #7216fc;
+  margin-left: 80%;
+  color:white;
+  font-size: 10px;
+  height:45px;
+  width: 30%; /* Add padding for spacing */
+}
+
+.searchemp {
+  display: block; /* Ensure label takes full width */
+}
+
+.search-barr {
+  width: 63%; /* Adjust width to accommodate padding */
+  padding: 8px;
+  margin-left: 8px;
+  border: none; /* Remove border from the input */
+  border-radius: 0; /* Reset border radius */
+  background-color:white; /* Transparent background */
+  box-sizing: border-box; /* Include padding in the width */
+  outline: none; /* Remove default input focus outline */
+}
+
+.search-barr:focus {
+  /* Example: Change border color on focus */
+  border-color: #007bff;
+}

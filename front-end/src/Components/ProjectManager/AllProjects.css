@@ -1,0 +1,108 @@
+
+
+.project-containerr {
+  
+  flex-wrap: wrap;
+}
+.projectt-details {
+  margin-left: 15px;
+}
+.projectt-details p{
+  font-size: 15px;
+}
+.project-boxx {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 50vh;
+  margin-bottom: 8vh;
+  padding: 20px;
+ 
+  width:60%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* .projectt-details {
+  text-align: center;
+} */
+
+.view-pdf-buttonn button{
+  position: absolute;
+  background-color: #007bff;
+ height:5vh;
+  color:white;
+  border-color: #1c8df0;
+  top: 20vh;
+  left: 55vh;
+}
+.view-pdf-buttonn button:hover {
+  background-color: #0a7ac0;
+  border-radius: 5px;
+}
+
+/* .optionss {
+ 
+  position: absolute;
+  margin-left: 40vh;
+ 
+  bottom: 70px;
+  left: 10px;
+} */
+
+.editbtnn,
+.deltt,
+.request {
+  margin-bottom: 8px;
+  margin-left: 2px;
+}
+.optionss{
+  top: 10vh;
+}
+/* .editbtnn{
+  background-color: #fec045;
+}
+.sendreqq {
+  background-color: rgb(136, 194, 49);
+}
+.editbtnn:hover {
+  background-color: #7f42e1f1; 
+} */
+.bb{
+  margin-top: 16px;
+  box-shadow: 1 0 20px rgba(1, 0, 0, 0.1);
+}
+
+.employee{
+  border: 1px solid #ccc;
+position: relative;
+  padding-left: 3vh;
+  padding-top: 3vh;
+}
+.resumee{
+  position: absolute;
+  background-color: #7216fc;
+  height:5vh;
+  color:white;
+  border-color: #7216fc;
+ top:10vh;
+  margin-left: 85vh;
+}
+.filter-container{
+margin-top: 0px;
+  background-color: #7216fc;
+ display:flex;
+height: 5vh;
+
+}
+.filt{
+ 
+    margin-left: 27%;
+    font-weight:bolder;
+    padding-top: 1vh;
+    position :flex;
+    font-size: 17px;
+    color:white
+}
+.filter option{
+  margin-left: 20px;
+}

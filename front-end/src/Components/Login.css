@@ -1,0 +1,57 @@
+
+.loginForm {
+    margin-top: 35px;
+    /* background-color: rgba(1, 32, 93, 0.6); */
+    background-color:White;
+    color:black;
+    height: 84%;
+   
+}
+
+strong{
+
+    color: black;
+    font-size: 5px;
+}
+.form{
+    margin-top: 10vh;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.imglogo{
+    width:50%;
+    
+    margin-bottom: 40px;
+}
+.logsub{
+    background-color: rgb(86, 206, 86);
+    margin-top: 20px;
+}
+h2{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.rmimg{
+    top:0;
+    width: 30%;
+}
+h1{
+  
+    color:#5e17eb;
+    margin-bottom: 8vh;
+}
+.ico{
+    color:#7216fc;
+    font-size:20px;
+    margin-left: 17vh;
+}

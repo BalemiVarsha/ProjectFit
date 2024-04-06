@@ -1,0 +1,67 @@
+.containerr {
+  margin: 10px;
+ 
+}
+
+.project-containerr {
+  
+  flex-wrap: wrap;
+}
+.projectt-details {
+  margin-left: 15px;
+}
+.project-boxx {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 50vh;
+  margin-bottom: 8vh;
+  padding: 20px;
+ 
+  width:60%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* .projectt-details {
+  text-align: center;
+} */
+
+.view-pdf-buttonn button{
+  position: absolute;
+  background-color: #007bff;
+ height:5vh;
+  color:white;
+  border-color: #1c8df0;
+  top: 10vh;
+  left: 55vh;
+}
+.view-pdf-buttonn button:hover {
+  background-color: #0a7ac0;
+  border-radius: 5px;
+}
+
+.optionss {
+  position: absolute;
+  margin-left: 90vh;
+  bottom: 70px;
+  left: 10px;
+}
+
+.editbtn,
+.delt,
+.sendreqq {
+  margin-top: 16px;
+}
+.editbtn{
+  background-color: #fec045;
+  background-color:  #7f42e1f1;
+  color:white
+}
+.sendreqq {
+  background-color: rgb(136, 194, 49);
+  background-color:  #7f42e1f1;
+  color:white;
+}
+.editbtn:hover {
+  background-color: #7f42e1f1; /* Background color on hover */
+}

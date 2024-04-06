@@ -1,0 +1,80 @@
+/* .main{
+    margin-top: 5vh;
+    display:flex;
+}
+img{
+    width: 10%;
+  
+  
+    box-shadow: 0 0 20px rgb(62, 61, 61); 
+}
+ */
+ /* body{
+  
+    background-color: #466bfce1;
+   
+ } */
+ .main {
+    /* margin-top: 3vh; */
+    display: flex;
+    margin-top:8vh;
+    /* background-color: #466bfce1; */
+   
+  }
+  
+  .main > div {
+    flex: 1; /* Distribute the space equally between the div elements */
+  }
+  
+  .main img {
+    width: 55%; /* Ensure images take up full width of their container */
+    display: block; 
+    margin-left: 25vh;
+    box-shadow: 0 0 20px rgb(62, 61, 61); 
+  }
+  
+.loginFormm {
+  margin-top: 4.5vh;
+  /* background-color: rgba(1, 32, 93, 0.6); */
+  background-color:#7216fc;
+  color:black;
+  height: 55.7%;
+  
+ 
+}
+.formm{
+top: 0;
+
+}
+.formm button{
+  margin-top: 2%;
+  width: 100%;
+ border-radius: 10px;
+ font-size: 30px;
+ color: white;
+  border-color: rgb(25, 187, 25);
+  background-color: #4CBB17;
+}
+.formm h1{
+color: white;
+text-align: center;
+}
+.selectlog img{
+  top:0px;
+ 
+}
+.selectt{
+  top: 0;
+  box-shadow: 0 0 20px rgb(62, 61, 61); 
+  background-color: rgb(16, 157, 212);
+}
+.rmimgg{
+  width:30%;
+  /* height: 56%; */
+}
+.create{
+  text-decoration: none;
+  color: azure;
+  font-size:20px;
+padding-top: 15px;
+}

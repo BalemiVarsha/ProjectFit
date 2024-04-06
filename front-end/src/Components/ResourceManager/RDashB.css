@@ -1,0 +1,35 @@
+.dashboard-container {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 25%;
+   /* Adjust as needed */
+}
+
+.dash {
+    display: flex;
+}
+
+.box1,
+.box2 {
+    text-align: center;
+    width:40vh;
+    margin-right: 10px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Example border style */
+    padding: 10px; /* Example padding */
+}
+.box1{
+    background-color: rgb(0, 166, 255);
+    color: white;
+}
+.box2{
+    background-color: rgb(227, 145, 51);
+    color:white
+}
+.box1 p{
+    font-weight: bold;
+    font-size:30px
+}
+.box2 p{
+    font-weight: bold;
+    font-size:30px
+}

@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/"
-to = "/App.jsx"
+from = "/*"
+to = "/index.html"
 
 status = 200

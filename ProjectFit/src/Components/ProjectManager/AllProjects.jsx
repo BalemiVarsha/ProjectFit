@@ -7,6 +7,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useLocation } from 'react-router-dom';
 
+
 import './AllProjects.css';
 
 
@@ -56,17 +57,6 @@ const AllProjects = () => {
     setFilter(event.target.value);
   };
 
-  // const filteredProjects = () => {
- 
-  //   if (filter === 'referred') {
-  //     return projects.filter(project => project.referredEmployees && project.referredEmployees.length > 0);
-  //   } else if (filter === 'nonReferred') {
-  //     return projects.filter(project => !project.referredEmployees || project.referredEmployees.length === 0);
-  //   } else {
-  //     return projects; // Show all projects when no filter applied
-  //   }
-  
-  // };
   const filteredProjects = () => {
     let filtered = projects;
     if (filter === 'referred') {
@@ -255,156 +245,3 @@ const EmployeeDetails = ({ employeeId }) => {
 };
 
 export default AllProjects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
